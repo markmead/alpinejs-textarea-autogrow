@@ -1,0 +1,1 @@
+var r=Object.defineProperty;var d=e=>r(e,"__esModule",{value:!0});var n=(e,t)=>{d(e);for(var i in t)r(e,i,{get:t[i],enumerable:!0})};n(exports,{default:()=>s});function o(e){e.directive("grow",t=>{t.addEventListener("input",()=>{t.style.height="auto",t.style.height=`${t.scrollHeight}px`})})}var s=o;0&&(module.exports={});
