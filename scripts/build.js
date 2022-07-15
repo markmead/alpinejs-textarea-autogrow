@@ -1,28 +1,28 @@
 build({
   entryPoints: [`builds/cdn.js`],
   outfile: `dist/grow.min.js`,
-  platform: "browser",
+  platform: 'browser',
   define: { CDN: true },
-});
+})
 
 build({
   entryPoints: [`builds/module.js`],
   outfile: `dist/grow.esm.js`,
-  platform: "neutral",
-  mainFields: ["main", "module"],
-});
+  platform: 'neutral',
+  mainFields: ['main', 'module'],
+})
 
 build({
   entryPoints: [`builds/module.js`],
   outfile: `dist/grow.cjs.js`,
-  target: ["node10.4"],
-  platform: "node",
-});
+  target: ['node10.4'],
+  platform: 'node',
+})
 
 function build(options) {
-  options.define || (options.define = {});
+  options.define || (options.define = {})
 
-  return require("esbuild")
+  return require('esbuild')
     .build({ ...options, minify: true, bundle: true })
-    .catch(() => process.exit(1));
+    .catch(() => process.exit(1))
 }

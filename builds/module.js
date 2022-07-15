@@ -1,3 +1,3 @@
-import grow from "../src/index.js";
+import grow from '../src/index.js'
 
-export default grow;
+export default grow

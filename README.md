@@ -17,7 +17,7 @@ It's very easy to install Alpine JS plugins! 🙌
 ### CDN
 
 ```html
-<script src="https://unpkg.com/alpinejs-textarea-grow@1.0.0/dist/grow.min.js"></script>
+<script src="https://unpkg.com/alpinejs-textarea-grow@1.x.x/dist/grow.min.js"></script>
 <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
 ```
 
@@ -32,14 +32,14 @@ yarn add -D alpinejs-textarea-grow
 Then you can register the plugin.
 
 ```js
-import Alpine from "alpinejs";
-import grow from "alpinejs-textarea-grow";
+import Alpine from 'alpinejs'
+import grow from 'alpinejs-textarea-grow'
 
-Alpine.plugin(grow);
+Alpine.plugin(grow)
 
-window.Alpine = Alpine;
+window.Alpine = Alpine
 
-Alpine.start();
+Alpine.start()
 ```
 
 ### Stats 📊
