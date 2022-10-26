@@ -1,8 +1,9 @@
 # Alpine JS Textarea Grow
 
-Alpine JS plugin `x-grow` adds in auto grow functionality to `<textarea>` elements 🌳
+Alpine JS plugin `x-grow` adds in auto grow functionality to `<textarea>`
+elements 🌳
 
-## Example 👀
+## Example
 
 ```html
 <textarea x-data x-grow></textarea>
@@ -10,9 +11,7 @@ Alpine JS plugin `x-grow` adds in auto grow functionality to `<textarea>` elemen
 
 This `<textarea>` will now grow with the content.
 
-## Install 🌟
-
-It's very easy to install Alpine JS plugins! 🙌
+## Install
 
 ### CDN
 
@@ -42,9 +41,7 @@ window.Alpine = Alpine
 Alpine.start()
 ```
 
-### Stats 📊
-
-Here's some stats about the Alpine JS Textarea Grow package! As you can see, it's tiny 🤏
+### Stats
 
 ![](https://img.shields.io/bundlephobia/min/alpinejs-textarea-grow)
 ![](https://img.shields.io/npm/v/alpinejs-textarea-grow)

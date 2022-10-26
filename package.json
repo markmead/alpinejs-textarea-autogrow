@@ -1,6 +1,6 @@
 {
   "name": "alpinejs-textarea-grow",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Autogrow textarea elements with Alpine JS",
   "keywords": [
     "Alpine",
@@ -9,7 +9,6 @@
   ],
   "author": "Mark Mead",
   "license": "MIT",
-  "main": "dist/grow.cjs.js",
   "module": "dist/grow.esm.js",
   "unpkg": "dist/grow.min.js",
   "scripts": {
