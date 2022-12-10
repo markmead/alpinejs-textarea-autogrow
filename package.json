@@ -1,6 +1,6 @@
 {
   "name": "alpinejs-textarea-grow",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Autogrow textarea elements with Alpine JS",
   "keywords": [
     "Alpine",
@@ -15,6 +15,6 @@
     "build": "node scripts/build.js"
   },
   "devDependencies": {
-    "esbuild": "^0.12.22"
+    "esbuild": "^0.16.2"
   }
 }
