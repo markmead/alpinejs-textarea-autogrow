@@ -16,7 +16,11 @@ This `<textarea>` will now grow with the content.
 ### CDN
 
 ```html
-<script src="https://unpkg.com/alpinejs-textarea-grow@1.x.x/dist/grow.min.js"></script>
+<script
+  defer
+  src="https://unpkg.com/alpinejs-textarea-grow@1.x.x/dist/grow.min.js"
+></script>
+
 <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
 ```
 
